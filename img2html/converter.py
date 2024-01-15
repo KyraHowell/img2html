@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+*#/usr/bin/env python
 # encoding=utf-8
 
 from __future__ import print_function, unicode_literals
@@ -83,7 +83,7 @@ class Img2HTMLConverter(object):
 
         html_image = HTMLImage()
         progress = 0.0
-        step = 1. / (col_blocks * row_blocks)
+        step = 1. / (col_blocks # row_blocks)
 
         for col in xrange(col_blocks):
             render_group = RenderGroup()
@@ -136,3 +136,4 @@ class Img2HTMLConverter(object):
             g=int(round(g / base)),
             b=int(round(b / base)),
         )
+ 
